@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.Floods{
+    position :relative;
+    width:100%;
+    height:50vh;
+    background:linear-gradient(45deg,rgb(195 110 175), rgb(69 5 115));
+}
+.Floods:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:200px;
+    background:#fff;
+    clip-path:polygon(100% 0,0 100%,100% 100%);
+}
+.Floods_header{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    left:50%;
+    position: absolute;
+    top: 20%;
+}
+.main_flood{
+    height: 745px;
+    width: 100%;
+}
+.main_flood_1{
+    width: 45%;
+    height: 745px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.main_flood_2{
+    height: 209px;
+    width: 50%;
+    border-radius: 10px 100px /120px;
+    background: linear-gradient(rgb(195 110 175),rgb(69 5 115));
+    color: white;
+    position: absolute;
+}
+.main_flood_heading{
+    position: absolute;
+    font-size: 57px;
+    font-weight: 700;
+    left: 25%;
+    top: 30%;
+}
+
+.main_flood_content{
+    position: absolute;
+    top: 40%;
+}
+.main_flood_content_1{
+    font-size: 24px;
+    word-spacing: 6px;
+    font-family:Alkatra ;
+}
+
+.dont_flood_main{
+    width: 45%;
+    height: 745px;
+    float: right;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.dont_flood_main_1{
+    height: 209px;
+    width: 50%;
+    border-radius: 10px 100px / 120px;
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    color: white;
+    position: absolute;
+}
+.dont_flood_heading{
+    position: absolute;
+    left: 17%;
+    top: 31%;
+    font-size: 57px;
+    font-weight: 700;
+}
+.dont_flood_main_content{
+    position: absolute;
+    top: 40%;
+}
+.dont_flood_main_list{
+    font-size: 24px;
+    word-spacing: 6px;
+    font-family:Alkatra ;
+}
+
+
+@media (min-width:450px) and (max-width:550px){
+    .Floods_header{
+        font-size: 71px;
+        left: 16%;
+    }
+    .main_flood{
+        height: 1760px;
+        width: 100%;
+    }
+    .main_flood_content{
+        top: 30%;
+    }
+    .main_flood_1{
+        display: block;
+        width: 93%;
+        margin: 15px 15px;
+        height: 800px;
+        
+    }
+    .main_flood_2{
+        width: 60%;
+        height: 190px;
+        left: 67px;
+        margin-top: 25px;
+    }
+    .dont_flood_main_content{
+        width: 100%;
+    }
+    .main_flood_content_1{
+        width: 95%;
+    }
+    .dont_flood_main{
+        width: 93%;
+        display: block;
+        top: 90px;
+        margin: 15px 15px;
+        height: 800px;
+    }
+    .dont_flood_main_content{
+        top: 30%;
+    }
+    .dont_flood_main_1{
+        width: 60%;
+        height: 190px;
+        left: 67px;
+        margin-top: 25px;
+    }
+}
+@media (min-width:00px) and (max-width:450px){
+    .Floods_header{
+        font-size: 71px;
+        left: 16%;
+    }
+    .main_flood{
+        height: 1830px;
+        width: 100%;
+    }
+    .main_flood_content{
+        top: 30%;
+    }
+    .main_flood_1{
+        display: block;
+        width: 93%;
+        margin: 15px 15px;
+        height: 800px;
+        
+    }
+    .main_flood_2{
+        width: 60%;
+        height: 190px;
+        left: 67px;
+        margin-top: 25px;
+    }
+    .dont_flood_main_content{
+        width: 100%;
+    }
+    .main_flood_content_1{
+        width: 95%;
+    }
+    .dont_flood_main{
+        width: 93%;
+        display: block;
+        top: 90px;
+        margin: 15px 15px;
+        height: 900px;
+    }
+    .dont_flood_main_content{
+        top: 30%;
+    }
+    .dont_flood_main_1{
+        width: 75%;
+        height: 190px;
+        left: 40px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:500px) and (max-width:1200px){
+    .main_flood_1{
+        width: 100%;
+        margin-bottom:13%;
+    }
+
+    .main_flood_2{
+        width: 40%;
+        left: 27%;
+    }
+
+    .main_flood_content{
+        width: 100%;
+    }
+
+    .dont_flood_main{
+        width: 100%;
+    }
+
+    .dont_flood_main_heading{
+        width: 100%;
+    }
+
+    .dont_flood_main_1{
+        width: 40%;
+        left: 25%;
+    }
+
+    .main_flood{
+        height: 1615px;   
+     }
+}

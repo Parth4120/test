@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+#alldisease{
+  height: 350px;
+  position: relative;
+
+}
+.diseas-1{
+  height: 300px;
+  width: 23%;
+  margin-top: 25px;
+  display: inline-block;
+  position: absolute;
+  background: linear-gradient(90deg,#f68976,#E73827);
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-box-1{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  font-family: Tengerine;
+}
+.diseas-2{
+  height: 300px;
+  width: 23%;
+  margin-top: 25px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 32px;
+  left: 22.5%;
+  background: linear-gradient(90deg,#333399,#FF00CC);
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-box-2{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  font-family: Tengerine;
+}
+.diseas-3{
+  height: 300px;
+  width: 23%;
+  margin-top: 25px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 32px;
+  left: 48%;
+  background: linear-gradient(90deg,#FC4A1A,#F7B733);
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-box-3{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  top: 24%;
+  left: 11%;
+  font-family: Tengerine;
+}
+.diseas-4{
+  height: 300px;
+  width: 23%;
+  margin-top: 25px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 32px;
+  left: 73%;
+  background: linear-gradient(90deg,#000046,#1CB5E0);
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-box-4{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  font-family: Tengerine;
+}
+.diseas-1:hover{
+  transform: scale(1.07);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-2:hover{
+  transform: scale(1.07);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-3:hover{
+  transform: scale(1.07);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.diseas-4:hover{
+  transform: scale(1.07);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+
+@media (min-width: 0px) and (max-width: 450px){
+  #alldisease{
+   position: inherit;
+   height: 1300px;
+   margin-top: 80px;
+  }
+
+.diseas-1, .diseas-2, .diseas-3, .diseas-4 {
+    margin-left: 35px;
+    position: inherit;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 58px;
+    text-decoration-line: underline;
+}
+.diseas-box-1,.diseas-box-2,.diseas-box-4{
+  font-size: 35px;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 58px;
+  text-decoration-line: underline;
+}
+.diseas-box-3{
+  font-size: 35px;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 58px;
+  text-decoration-line: underline;
+  margin-top: -43px;
+}
+}
+
+@media (min-width:451px) and (max-width: 500px){
+  .diseas-box-1,.diseas-box-2,.diseas-box-4{
+    font-size: 35px;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 58px;
+    text-decoration-line: underline;
+}
+  .diseas-box-3{
+    font-size: 35px;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 58px;
+    text-decoration-line: underline;
+    margin-top: -43px;
+  }
+  .diseas-1,.diseas-2,.diseas-3,.diseas-4{
+    display: block; 
+    position: inherit;
+    height: 270px;
+    width: 325px;
+    margin-left: 76px;
+    padding-top: 95px;
+  }
+  #alldisease{
+    height: 1200px;
+    margin-top: 280px;
+  }
+}
+
+@media (min-width:500px) and (max-width:850px){
+  #alldisease{
+    height: 1280px;
+    margin-top: 70px;
+  }
+
+  .diseas-1,.diseas-2,.diseas-3,.diseas-4{
+    display: block;
+    position: inherit;
+    width: 63%;
+    margin-left: 16%;
+  }
+
+  .diseas-box-1,.diseas-box-2,.diseas-box-4{
+    display: flex;
+    position: inherit;
+    margin-left: 8%;
+    padding-top: 25% ;
+  }
+
+  .diseas-box-3{
+    display: flex;
+    position: inherit;
+    margin-left: 8%;
+    padding-top: 20% ;
+  }
+}
+@media (min-width:850px) and (max-width:1200px){
+  .diseas-2,.diseas-3,.diseas-4{
+    margin-left: 3%;
+  }
+
+  .diseas-box-1,.diseas-box-2,.diseas-box-3,.diseas-box-4{
+    left: 9%;
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

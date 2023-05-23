@@ -1,0 +1,310 @@
+.custom-shape-divider-top-1680709654_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
+}
+
+.custom-shape-divider-top-1680709654_1 .svg_1_curv {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 180px;
+}
+
+.custom-shape-divider-top-1680709654_1 .shape-fill_1 {
+    fill:#ffffff;
+}
+
+.heading_de_all{
+    position: absolute;
+    left: 45%;
+    top: 17%;
+    font-size: 80px;
+    color: purple;
+}
+.body_11{
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+ width: 100%;
+ height: 1100px;
+}
+
+.main_de_1{
+    border: 5px solid white;
+    height: 725px;
+    position: relative;
+    top: 30%;
+}
+
+.main_symptoms{
+    width: 50%;
+    float: left;
+    height: 1000px;
+}
+.main_symptoms_img{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    left: 10%;
+    top: 13%;
+}
+.main_symptoms_img_1{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+}
+.main_solution{
+    width: 50%;
+    float: right;
+    height: 700px;
+}
+
+.main_solution_ul{
+    font-size: 23px;
+    color: white;
+    word-spacing: 6px;
+}
+
+.main_solution_h1{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:0px) and (max-width:450px){
+    .body_11{
+    
+         width: 96%;
+         height: 80%;
+        margin-left: 2%;
+        
+    }
+    .main_de_1{
+        top: 10%;
+        height: 2220px;
+    }
+   
+    .main_symptoms{
+        display: block;
+        width: 100%;
+        height: 47%;
+        top: 9%;
+        position: relative;
+    }
+    .main_solution{
+        display: block;
+        width: 100%;
+        height: 53%;
+    }
+    .heading_de_fever{
+        margin-left: -17%;
+    }
+    .heading_de_cold{
+        margin-top: 0%;
+        margin-left: -4%;
+    }
+}
+
+@media (min-width:450px) and (max-width:550px){
+    .body_11{
+    
+         width: 96%;
+         height: 80%;
+        margin-left: 2%;
+        
+    }
+    .main_de_1{
+        top: 10%;
+        height: 1920px;
+    }
+   
+    .main_symptoms{
+        display: block;
+        width: 100%;
+        height: 47%;
+        top: 9%;
+        position: relative;
+    }
+    .main_solution{
+        display: block;
+        width: 100%;
+        height: 53%;
+    }
+    .heading_de_fever{
+      margin-left: -4%;
+    }
+
+}
+
+@media (min-width:550px) and (max-width:1200px){
+    .body_11{
+    
+         width: 96%;
+         height: 2100px;
+        margin-left: 2%;
+        
+    }
+    .main_de_1{
+        top: 10%;
+        height: 1800px;
+    }
+   
+    .main_symptoms{
+        display: block;
+        width: 100%;
+    
+        top: 9%;
+        position: relative;
+    }
+    .main_solution{
+        display: block;
+        width: 100%;
+        height: 53%;
+    }
+    .heading_de_fever{
+        left: 30%;
+        position: absolute;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    .body_11{
+    
+        width: 96%;
+        height: 1165px;
+       margin-left: 2%;   
+   }
+   .main_de_1{
+    top: 15%;
+    height: 880px;
+}
+}
+@media(orientation:landscape) and (max-height:500px){
+        .body_11{
+            height: 1460px;
+        }
+        .main_de_1{
+            height: 1205px;
+        }
+       .main_symptoms_img{
+        top: 35%;
+       }
+       .main_de_1{
+        top: 15%;
+       }
+}
+.heading_de_fever{
+    position: absolute;
+    left: 42%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_cold{
+    position: absolute;
+    left: 29%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_malaria{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_cholera{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_covid{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_conjunctivitis{
+    position: absolute;
+    left: 34%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_dengue{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_strep{
+    position: absolute;
+    left: 36%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_stomach{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+
+.heading_de_drowing{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+
+.heading_de_swelling{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_tuberculosis{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+
+.heading_de_pneumonia{
+    position: absolute;
+    left: 36%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_choking{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
+.heading_de_asthma{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+    color: purple; 
+}
