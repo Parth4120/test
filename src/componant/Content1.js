@@ -23,7 +23,7 @@ export default function Content1() {
     // change the language
     const handleChange = e => { 
         setLang(e.target.value);
-        let loc = "http://localhost:3000/";
+        let loc = "34.131.202.34";
         window.location.replace(loc + "?lng=" + e.target.value);
     }
   return (
